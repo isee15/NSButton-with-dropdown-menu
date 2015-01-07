@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9153D9B2CB3561A7FAAAEBB2 /* break_the_egg_128px.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9153D666475F7124924AD015 /* break_the_egg_128px.icns */; };
+		D2C7E2CE1A5CE2690091E2AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C7E2CD1A5CE2690091E2AD /* AppDelegate.m */; };
+		D2C7E2D01A5CE2690091E2AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C7E2CF1A5CE2690091E2AD /* main.m */; };
+		D2C7E2D31A5CE2690091E2AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C7E2D21A5CE2690091E2AD /* ViewController.m */; };
+		D2C7E2D51A5CE2690091E2AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C7E2D41A5CE2690091E2AD /* Images.xcassets */; };
+		D2C7E2D81A5CE2690091E2AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C7E2D61A5CE2690091E2AD /* Main.storyboard */; };
+		D2C7E2E41A5CE2690091E2AD /* ComposeButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C7E2E31A5CE2690091E2AD /* ComposeButtonTests.m */; };
+		D2C7E2F01A5CE29D0091E2AD /* ComposeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C7E2EF1A5CE29D0091E2AD /* ComposeButton.m */; };
+		D2C7E2FA1A5CF5200091E2AD /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C7E2F21A5CF5200091E2AD /* button.png */; };
+		D2C7E2FB1A5CF5200091E2AD /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C7E2F31A5CF5200091E2AD /* button@2x.png */; };
+		D2C7E2FC1A5CF5200091E2AD /* buttondown.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C7E2F41A5CF5200091E2AD /* buttondown.png */; };
+		D2C7E2FD1A5CF5200091E2AD /* buttondown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C7E2F51A5CF5200091E2AD /* buttondown@2x.png */; };
+		D2C7E2FE1A5CF5200091E2AD /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C7E2F61A5CF5200091E2AD /* right.png */; };
+		D2C7E2FF1A5CF5200091E2AD /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C7E2F71A5CF5200091E2AD /* right@2x.png */; };
+		D2C7E3001A5CF5200091E2AD /* rightdown.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C7E2F81A5CF5200091E2AD /* rightdown.png */; };
+		D2C7E3011A5CF5200091E2AD /* rightdown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C7E2F91A5CF5200091E2AD /* rightdown@2x.png */; };
+		D2C7E3041A5CF9D80091E2AD /* DropdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C7E3031A5CF9D80091E2AD /* DropdownButton.m */; };
+		D2C7E3071A5D0D430091E2AD /* NSButton+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C7E3061A5D0D430091E2AD /* NSButton+Helper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2C7E2DE1A5CE2690091E2AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C7E2BF1A5CE2690091E2AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2C7E2C61A5CE2690091E2AD;
+			remoteInfo = ComposeButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9153D666475F7124924AD015 /* break_the_egg_128px.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = break_the_egg_128px.icns; sourceTree = "<group>"; };
+		D2C7E2C71A5CE2690091E2AD /* ComposeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComposeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C7E2CB1A5CE2690091E2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C7E2CC1A5CE2690091E2AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2C7E2CD1A5CE2690091E2AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2C7E2CF1A5CE2690091E2AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2C7E2D11A5CE2690091E2AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2C7E2D21A5CE2690091E2AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2C7E2D41A5CE2690091E2AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2C7E2D71A5CE2690091E2AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2C7E2DD1A5CE2690091E2AD /* ComposeButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComposeButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C7E2E21A5CE2690091E2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C7E2E31A5CE2690091E2AD /* ComposeButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeButtonTests.m; sourceTree = "<group>"; };
+		D2C7E2EE1A5CE29D0091E2AD /* ComposeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeButton.h; sourceTree = "<group>"; };
+		D2C7E2EF1A5CE29D0091E2AD /* ComposeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeButton.m; sourceTree = "<group>"; };
+		D2C7E2F21A5CF5200091E2AD /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = Img/button.png; sourceTree = "<group>"; };
+		D2C7E2F31A5CF5200091E2AD /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button@2x.png"; path = "Img/button@2x.png"; sourceTree = "<group>"; };
+		D2C7E2F41A5CF5200091E2AD /* buttondown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttondown.png; path = Img/buttondown.png; sourceTree = "<group>"; };
+		D2C7E2F51A5CF5200091E2AD /* buttondown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buttondown@2x.png"; path = "Img/buttondown@2x.png"; sourceTree = "<group>"; };
+		D2C7E2F61A5CF5200091E2AD /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = right.png; path = Img/right.png; sourceTree = "<group>"; };
+		D2C7E2F71A5CF5200091E2AD /* right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "right@2x.png"; path = "Img/right@2x.png"; sourceTree = "<group>"; };
+		D2C7E2F81A5CF5200091E2AD /* rightdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rightdown.png; path = Img/rightdown.png; sourceTree = "<group>"; };
+		D2C7E2F91A5CF5200091E2AD /* rightdown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rightdown@2x.png"; path = "Img/rightdown@2x.png"; sourceTree = "<group>"; };
+		D2C7E3021A5CF9D80091E2AD /* DropdownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownButton.h; sourceTree = "<group>"; };
+		D2C7E3031A5CF9D80091E2AD /* DropdownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownButton.m; sourceTree = "<group>"; };
+		D2C7E3051A5D0D430091E2AD /* NSButton+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSButton+Helper.h"; sourceTree = "<group>"; };
+		D2C7E3061A5D0D430091E2AD /* NSButton+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSButton+Helper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2C7E2C41A5CE2690091E2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C7E2DA1A5CE2690091E2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2C7E2BE1A5CE2690091E2AD = {
+			isa = PBXGroup;
+			children = (
+				D2C7E2C91A5CE2690091E2AD /* ComposeButton */,
+				D2C7E2E01A5CE2690091E2AD /* ComposeButtonTests */,
+				D2C7E2C81A5CE2690091E2AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2C7E2C81A5CE2690091E2AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2C7E2C71A5CE2690091E2AD /* ComposeButton.app */,
+				D2C7E2DD1A5CE2690091E2AD /* ComposeButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2C7E2C91A5CE2690091E2AD /* ComposeButton */ = {
+			isa = PBXGroup;
+			children = (
+				D2C7E2F11A5CE31C0091E2AD /* Img */,
+				D2C7E2ED1A5CE2790091E2AD /* Control */,
+				D2C7E2CC1A5CE2690091E2AD /* AppDelegate.h */,
+				D2C7E2CD1A5CE2690091E2AD /* AppDelegate.m */,
+				D2C7E2D11A5CE2690091E2AD /* ViewController.h */,
+				D2C7E2D21A5CE2690091E2AD /* ViewController.m */,
+				D2C7E2D41A5CE2690091E2AD /* Images.xcassets */,
+				D2C7E2D61A5CE2690091E2AD /* Main.storyboard */,
+				D2C7E2CA1A5CE2690091E2AD /* Supporting Files */,
+				9153D666475F7124924AD015 /* break_the_egg_128px.icns */,
+			);
+			path = ComposeButton;
+			sourceTree = "<group>";
+		};
+		D2C7E2CA1A5CE2690091E2AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2C7E2CB1A5CE2690091E2AD /* Info.plist */,
+				D2C7E2CF1A5CE2690091E2AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2C7E2E01A5CE2690091E2AD /* ComposeButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2C7E2E31A5CE2690091E2AD /* ComposeButtonTests.m */,
+				D2C7E2E11A5CE2690091E2AD /* Supporting Files */,
+			);
+			path = ComposeButtonTests;
+			sourceTree = "<group>";
+		};
+		D2C7E2E11A5CE2690091E2AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2C7E2E21A5CE2690091E2AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2C7E2ED1A5CE2790091E2AD /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				D2C7E2EE1A5CE29D0091E2AD /* ComposeButton.h */,
+				D2C7E2EF1A5CE29D0091E2AD /* ComposeButton.m */,
+				D2C7E3021A5CF9D80091E2AD /* DropdownButton.h */,
+				D2C7E3031A5CF9D80091E2AD /* DropdownButton.m */,
+				D2C7E3051A5D0D430091E2AD /* NSButton+Helper.h */,
+				D2C7E3061A5D0D430091E2AD /* NSButton+Helper.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		D2C7E2F11A5CE31C0091E2AD /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				D2C7E2F21A5CF5200091E2AD /* button.png */,
+				D2C7E2F31A5CF5200091E2AD /* button@2x.png */,
+				D2C7E2F41A5CF5200091E2AD /* buttondown.png */,
+				D2C7E2F51A5CF5200091E2AD /* buttondown@2x.png */,
+				D2C7E2F61A5CF5200091E2AD /* right.png */,
+				D2C7E2F71A5CF5200091E2AD /* right@2x.png */,
+				D2C7E2F81A5CF5200091E2AD /* rightdown.png */,
+				D2C7E2F91A5CF5200091E2AD /* rightdown@2x.png */,
+			);
+			name = Img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2C7E2C61A5CE2690091E2AD /* ComposeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C7E2E71A5CE2690091E2AD /* Build configuration list for PBXNativeTarget "ComposeButton" */;
+			buildPhases = (
+				D2C7E2C31A5CE2690091E2AD /* Sources */,
+				D2C7E2C41A5CE2690091E2AD /* Frameworks */,
+				D2C7E2C51A5CE2690091E2AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComposeButton;
+			productName = ComposeButton;
+			productReference = D2C7E2C71A5CE2690091E2AD /* ComposeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2C7E2DC1A5CE2690091E2AD /* ComposeButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C7E2EA1A5CE2690091E2AD /* Build configuration list for PBXNativeTarget "ComposeButtonTests" */;
+			buildPhases = (
+				D2C7E2D91A5CE2690091E2AD /* Sources */,
+				D2C7E2DA1A5CE2690091E2AD /* Frameworks */,
+				D2C7E2DB1A5CE2690091E2AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2C7E2DF1A5CE2690091E2AD /* PBXTargetDependency */,
+			);
+			name = ComposeButtonTests;
+			productName = ComposeButtonTests;
+			productReference = D2C7E2DD1A5CE2690091E2AD /* ComposeButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2C7E2BF1A5CE2690091E2AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = isee15;
+				TargetAttributes = {
+					D2C7E2C61A5CE2690091E2AD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D2C7E2DC1A5CE2690091E2AD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D2C7E2C61A5CE2690091E2AD;
+					};
+				};
+			};
+			buildConfigurationList = D2C7E2C21A5CE2690091E2AD /* Build configuration list for PBXProject "ComposeButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2C7E2BE1A5CE2690091E2AD;
+			productRefGroup = D2C7E2C81A5CE2690091E2AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2C7E2C61A5CE2690091E2AD /* ComposeButton */,
+				D2C7E2DC1A5CE2690091E2AD /* ComposeButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2C7E2C51A5CE2690091E2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C7E2D51A5CE2690091E2AD /* Images.xcassets in Resources */,
+				D2C7E2FA1A5CF5200091E2AD /* button.png in Resources */,
+				D2C7E2FB1A5CF5200091E2AD /* button@2x.png in Resources */,
+				D2C7E3001A5CF5200091E2AD /* rightdown.png in Resources */,
+				D2C7E2D81A5CE2690091E2AD /* Main.storyboard in Resources */,
+				D2C7E2FD1A5CF5200091E2AD /* buttondown@2x.png in Resources */,
+				D2C7E2FC1A5CF5200091E2AD /* buttondown.png in Resources */,
+				D2C7E2FE1A5CF5200091E2AD /* right.png in Resources */,
+				D2C7E2FF1A5CF5200091E2AD /* right@2x.png in Resources */,
+				D2C7E3011A5CF5200091E2AD /* rightdown@2x.png in Resources */,
+				9153D9B2CB3561A7FAAAEBB2 /* break_the_egg_128px.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C7E2DB1A5CE2690091E2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2C7E2C31A5CE2690091E2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C7E2F01A5CE29D0091E2AD /* ComposeButton.m in Sources */,
+				D2C7E3041A5CF9D80091E2AD /* DropdownButton.m in Sources */,
+				D2C7E2D31A5CE2690091E2AD /* ViewController.m in Sources */,
+				D2C7E2D01A5CE2690091E2AD /* main.m in Sources */,
+				D2C7E3071A5D0D430091E2AD /* NSButton+Helper.m in Sources */,
+				D2C7E2CE1A5CE2690091E2AD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C7E2D91A5CE2690091E2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C7E2E41A5CE2690091E2AD /* ComposeButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2C7E2DF1A5CE2690091E2AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2C7E2C61A5CE2690091E2AD /* ComposeButton */;
+			targetProxy = D2C7E2DE1A5CE2690091E2AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2C7E2D61A5CE2690091E2AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2C7E2D71A5CE2690091E2AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2C7E2E51A5CE2690091E2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D2C7E2E61A5CE2690091E2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D2C7E2E81A5CE2690091E2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ComposeButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2C7E2E91A5CE2690091E2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ComposeButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2C7E2EB1A5CE2690091E2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ComposeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComposeButton.app/Contents/MacOS/ComposeButton";
+			};
+			name = Debug;
+		};
+		D2C7E2EC1A5CE2690091E2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ComposeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComposeButton.app/Contents/MacOS/ComposeButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2C7E2C21A5CE2690091E2AD /* Build configuration list for PBXProject "ComposeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C7E2E51A5CE2690091E2AD /* Debug */,
+				D2C7E2E61A5CE2690091E2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C7E2E71A5CE2690091E2AD /* Build configuration list for PBXNativeTarget "ComposeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C7E2E81A5CE2690091E2AD /* Debug */,
+				D2C7E2E91A5CE2690091E2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C7E2EA1A5CE2690091E2AD /* Build configuration list for PBXNativeTarget "ComposeButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C7E2EB1A5CE2690091E2AD /* Debug */,
+				D2C7E2EC1A5CE2690091E2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2C7E2BF1A5CE2690091E2AD /* Project object */;
+}
