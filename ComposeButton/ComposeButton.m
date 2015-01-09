@@ -52,17 +52,19 @@
 - (void)setup
 {
     self.menu = [[NSMenu alloc] initWithTitle:@""];
-    self.bezelStyle = NSRoundedBezelStyle;
+    self.bezelStyle = NSShadowlessSquareBezelStyle;
+    [self.cell setButtonType:NSMomentaryLightButton];
     self.bordered = NO;
     self.image = [NSImage imageNamed:@"button"];
     self.alternateImage = [NSImage imageNamed:@"buttondown"];
 
     self.buttonRight = [[DropdownButton alloc] init];
-    self.buttonRight.bezelStyle = NSRoundedBezelStyle;
+    self.buttonRight.bezelStyle = NSShadowlessSquareBezelStyle;
     self.buttonRight.bordered = NO;
     self.buttonRight.image = [NSImage imageNamed:@"right"];
     self.buttonRight.alternateImage = [NSImage imageNamed:@"rightdown"];
-    //[self.buttonRight.cell setImageScaling:NSImageScaleAxesIndependently];
+    [self.buttonRight.cell setImageScaling:NSImageScaleAxesIndependently];
+    [self.buttonRight.cell setButtonType:NSMomentaryLightButton];
     self.buttonRight.menu = self.menu;
     self.buttonRight.relativeView = self;
     //[self.buttonRight setColorTitle:@"\u25BE"];
@@ -70,7 +72,7 @@
     [self addSubview:self.buttonRight];
     [self sizeToFit];
     NSRect rect = self.frame;
-    [self.buttonRight setFrame:NSMakeRect(rect.size.width - 19, 0, 19, rect.size.height)];
+    [self.buttonRight setFrame:NSMakeRect(rect.size.width - 19, 0, 19, rect.size.height-1)];
 
 
 }
